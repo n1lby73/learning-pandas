@@ -41,7 +41,7 @@ for i in range(1,12):
 emyData = pd.Series(createSeries)
 etyData = pd.Series(newSeries)
 
-#dividing data
+#max data
 
 data = emyData.max()
 
