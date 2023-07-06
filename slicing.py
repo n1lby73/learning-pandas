@@ -20,7 +20,14 @@ for i in range(97,104):
 
 for i in range(1,34):
 
-    createSeries.append("EMY-c"+ str(i))
+    if i <= 9:
+
+        createSeries.append("EMY-c0"+ str(i))
+
+    else:
+
+        createSeries.append("EMY-c"+ str(i))
+
 
 data = pd.Series(createSeries, index=index)
 
