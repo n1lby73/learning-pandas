@@ -18,3 +18,7 @@ heading = ['odlcygipnu', 'vjwdnhkabs', 'emvysnflpj', 'qrzlepvksa', 'ofzkbgthxr',
 data = pd.DataFrame(values, index=heading)
 
 print(data[user1:user2])
+
+print('\n----------------------combined sort and slicing----------------------------\n')
+
+print(data.sort_values(by="eqpkl")[user1:user2])
